@@ -139,10 +139,10 @@
   justify-content: center;
 }
 .contact-text01 {
-  color: var(--dl-color-gray-white);
+  color: black;
 }
 .contact-text04 {
-  color: var(--dl-color-gray-white);
+  color: silver;
   font-size: 0.75rem;
   max-width: 600px;
   margin-top: var(--dl-space-space-unit);
