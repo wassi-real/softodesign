@@ -84,6 +84,7 @@
 }
 .Link:hover {
   color: #5228F5;
+  border-bottom-width: thick;
 }
 .card {
   flex: 1;
@@ -181,8 +182,8 @@
   background-color: #080808;
 }
 .template-button:hover {
-  color: black;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #7813fe;
 }
 
 .accordionIcon {
