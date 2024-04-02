@@ -1,3 +1,22 @@
+.home-image08 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+}
+.home-image09 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+}
+
+
+
 .testimonial-card1-testimonial-card {
   display: flex;
   padding: var(--dl-space-space-twounits);
