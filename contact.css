@@ -1,3 +1,23 @@
+.home-image08 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+}
+.home-image09 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: var(--dl-radius-radius-radius2);
+  text-decoration: none;
+}
+
+
+
+
 .contact-container {
   width: 100%;
   display: flex;
