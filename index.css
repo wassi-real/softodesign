@@ -33,6 +33,21 @@
 }
 
 
+.vid-23-pad {
+  width: 300px;
+  height: 300px;
+  /* box-shadow: 5px 5px 29px 0px #d4d4d4; */
+  object-fit: contain;
+  flex-shrink: 0;
+  /* border-radius: 10px; */
+  /* margin-top: 30px; */
+  /* margin-bottom: 50px; */
+  padding: 5px;
+  /* border-radius: 30px; */
+  /* border: 1px dashed rgb(62, 3, 83); */
+}
+
+
 
 @media(max-width: 767px) {
   .navigation-links-nav {
