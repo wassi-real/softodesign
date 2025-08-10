@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "id": "agency",
+      "name": "Agency Services",
+      "description": "Professional services for businesses of all sizes",
+      "products": [
+        {
+          "id": "mintmvp",
+          "name": "MintMVP",
+          "logo": "https://mintmvp.com/favicon.png",
+          "description": "Build Your MVP, Fast, Affordable & Easily",
+          "url": "https://mintmvp.com/",
+          "inactive": false
+        },
+        {
+          "id": "design-agency",
+          "name": "Design Agency",
+          "logo": "https://softodesign.com/assets/website-removebg-preview-1500h.png",
+          "description": "Subscription based graphic design services to clients.",
+          "url": "https://design.softodesign.com",
+          "sell": false,
+          "inactive": true
+        },
+        {
+          "id": "createflow",
+          "name": "CreateFlow",
+          "logo": "https://createflow.softodesign.com/assets/8-400h.png",
+          "description": "Digital Paid Ads Services for businesses",
+          "url": "https://createflow.softodesign.com",
+          "inactive": true
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "name": "SaaS Products",
+      "description": "Software as a Service solutions for various needs",
+      "products": [
+        {
+          "id": "softobucket",
+          "name": "SoftoBucket",
+          "logo": "https://softobucket.com/favicon.png",
+          "description": "A bucket list for SaaS founders and entrepreneurs to showcase their startups",
+          "url": "https://softobucket.com/",
+          "active": true
+        },
+        {
+          "id": "writerr",
+          "name": "Writerr",
+          "logo": "https://writerr.softodesign.com/_app/immutable/assets/favicon.CJa5JeG7.png",
+          "description": "Writerr is the ultimate platform for writers to craft, edit, and perfect their books.",
+          "url": "https://writerr.softodesign.com",
+          "active": true
+        },
+        {
+          "id": "softoultra",
+          "name": "SoftoUltra",
+          "logo": "https://ph-files.imgix.net/76e4e7fe-a6f7-4904-9d38-c0516dd0d7c1.png?auto=format",
+          "description": "Explore startups and products crafted by humans from across the internet.",
+          "url": "https://softoultra.com",
+          "sell": true
+        },
+        {
+          "id": "softovault",
+          "name": "SoftoVault",
+          "logo": "https://softovault.com/SoftoVaultLogo.png",
+          "description": "Secure environment without exposed secrets",
+          "url": "https://softovault.com",
+          "active": true
+        }
+      ]
+    }
+  ]
+}
