@@ -2,17 +2,17 @@
 	<div class="max-w-7xl mx-auto px-4">
 		<div class="container mx-auto">
 			<div class="hero-wrapper">
-				<div class="flex flex-col lg:flex-row items-center justify-between min-h-[70vh] gap-8 lg:gap-0">
-					<div class="hero-content flex-1 flex flex-col items-start justify-center text-left w-full lg:w-auto">
+				<div class="flex flex-col lg:flex-row items-center justify-between min-h-[50vh] md:min-h-[60vh] lg:min-h-[70vh] gap-6 md:gap-8 lg:gap-0">
+					<div class="hero-content flex-1 flex flex-col items-start justify-center text-left w-full lg:w-auto px-2 md:px-0">
 						<div class="text-container">
 							<div class="heading-container">
-								<h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 md:mb-6 leading-tight">
+								<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-3 md:mb-4 lg:mb-6 leading-tight">
 									Welcome Human
 								</h1>
 							</div>
 							
 							<div class="subtitle-container">
-								<p class="text-base md:text-lg lg:text-xl text-gray-600 mb-8 md:mb-12 leading-relaxed">
+								<p class="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 mb-6 md:mb-8 lg:mb-12 leading-relaxed">
 									A creative technology company focused on building innovative solutions. Founded in 2023, we provide design and development services to help businesses transform their ideas into reality.
 								</p>
 							</div>
@@ -37,7 +37,7 @@
 								<img 
 									src="/main.png" 
 									alt="SoftoDesign" 
-									class="w-full sm:w-4/5 md:w-3/4 lg:w-4/5 h-auto object-contain border border-gray-200 rounded-lg mx-auto"
+									class="w-full sm:w-4/5 md:w-3/4 lg:w-4/5 h-auto object-contain border border-gray-200 rounded-lg mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl"
 								/>
 							</div>
 						</div>
