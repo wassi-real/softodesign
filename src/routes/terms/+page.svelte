@@ -1,111 +1,91 @@
-<script>
-	// Terms of Service page - minimal design
-</script>
-
 <svelte:head>
-	<title>Terms of Service - SoftoDesign Labs</title>
-	<meta name="description" content="Terms of Service for SoftoDesign Labs. Read our terms and conditions for using our services." />
+	<title>Terms of Service • SoftoDesign</title>
 </svelte:head>
 
-<div class="bg-white pt-28 pb-16">
-	<div class="max-w-4xl mx-auto px-4">
-		
-		<!-- Header -->
-		<div class="mb-12">
-			<h1 class="text-4xl font-bold text-black mb-4">Terms of Service</h1>
-			<p class="text-xl text-gray-600">
-				Last updated: January 1, 2025
-			</p>
-		</div>
+<section class="bg-white">
+	<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 space-y-12">
+		<header class="space-y-4 text-center sm:text-left">
+			<p class="text-sm font-semibold uppercase tracking-wide text-purple-600">Terms of Service</p>
+			<h1 class="text-3xl sm:text-4xl font-bold text-black">The rules of the SoftoDesign platform</h1>
+			<p class="text-base sm:text-lg text-black/70">Last updated: January 1, 2025</p>
+		</header>
 
-		<!-- Introduction -->
-		<div class="mb-16">
-			<div class="space-y-4 text-gray-700 leading-relaxed">
+		<div class="space-y-8 text-black/80 leading-relaxed">
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">1. Acceptance of terms</h2>
 				<p>
-					These Terms of Service ("Terms") govern your use of SoftoDesign Labs' website and services. By accessing or using our services, you agree to be bound by these Terms.
+					By creating an account, adding listings, or using any part of SoftoDesign, you agree to these Terms of
+					Service. If you do not agree, please do not use the platform.
 				</p>
-			</div>
-		</div>
+			</section>
 
-		<!-- Use of Services -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Use of Services</h2>
-			<div class="space-y-6">
-				<div class="border border-gray-200 p-6 rounded-lg">
-					<h3 class="text-lg font-semibold text-black mb-3">Acceptable Use</h3>
-					<p class="text-gray-600">You may use our services for lawful purposes only. You agree not to use our services for any illegal or unauthorized purpose.</p>
-				</div>
-				<div class="border border-gray-200 p-6 rounded-lg">
-					<h3 class="text-lg font-semibold text-black mb-3">Account Responsibility</h3>
-					<p class="text-gray-600">You are responsible for maintaining the security of your account and for all activities that occur under your account.</p>
-				</div>
-				<div class="border border-gray-200 p-6 rounded-lg">
-					<h3 class="text-lg font-semibold text-black mb-3">Prohibited Activities</h3>
-					<p class="text-gray-600">You may not use our services to transmit harmful content, violate intellectual property rights, or engage in fraudulent activities.</p>
-				</div>
-			</div>
-		</div>
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">2. Accounts &amp; eligibility</h2>
+				<ul class="space-y-2 list-disc list-inside">
+					<li>You must provide accurate, complete information when creating your founder profile or listing.</li>
+					<li>You are responsible for safeguarding your login credentials and account activity.</li>
+					<li>
+						We reserve the right to suspend or terminate accounts that violate these terms or harm the community.
+					</li>
+				</ul>
+			</section>
 
-		<!-- Service Availability -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Service Availability</h2>
-			<div class="space-y-4 text-gray-700 leading-relaxed">
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">3. Listings &amp; content</h2>
+				<ul class="space-y-2 list-disc list-inside">
+					<li>You retain ownership of content you submit but grant us a license to display it on SoftoDesign.</li>
+					<li>
+						You agree that your listings and reviews are truthful, respectful, and compliant with applicable laws.
+					</li>
+					<li>We may edit or remove content that is misleading, offensive, or violates these terms.</li>
+				</ul>
+			</section>
+
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">4. Acceptable use</h2>
+				<ul class="space-y-2 list-disc list-inside">
+					<li>No scraping, spamming, or interfering with the platform’s functionality.</li>
+					<li>No unauthorized access attempts or exploitation of vulnerabilities.</li>
+					<li>
+						Respect other users—do not post defamatory, abusive, or harmful content or attempt to collect their
+						data without consent.
+					</li>
+				</ul>
+			</section>
+
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">5. Payments &amp; subscriptions</h2>
 				<p>
-					We strive to maintain high availability of our services, but we do not guarantee uninterrupted access. We may temporarily suspend services for maintenance or updates.
+					Featured listings, verification, or other paid features are billed through our payment partners. All
+					fees are non-refundable unless otherwise stated. You are responsible for applicable taxes.
 				</p>
-			</div>
-		</div>
+			</section>
 
-		<!-- Intellectual Property -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Intellectual Property</h2>
-			<div class="space-y-4 text-gray-700 leading-relaxed">
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">6. Disclaimer &amp; limitations</h2>
 				<p>
-					All content and materials on our website and services are owned by SoftoDesign Labs or our licensors and are protected by intellectual property laws.
+					SoftoDesign is provided “as is” without warranties. We are not liable for any indirect or consequential
+					damages arising from use of the platform. Some jurisdictions do not allow such exclusions, so the above
+					may not apply to you.
 				</p>
-			</div>
-		</div>
+			</section>
 
-		<!-- Limitation of Liability -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Limitation of Liability</h2>
-			<div class="space-y-4 text-gray-700 leading-relaxed">
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">7. Changes to these terms</h2>
 				<p>
-					To the maximum extent permitted by law, SoftoDesign Labs shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.
+					We may update these Terms to reflect product changes or legal requirements. Continued use after updates
+					constitutes acceptance of the revised Terms. We will notify users of material changes.
 				</p>
-			</div>
-		</div>
+			</section>
 
-		<!-- Termination -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Termination</h2>
-			<div class="space-y-4 text-gray-700 leading-relaxed">
+			<section class="space-y-3">
+				<h2 class="text-xl font-semibold text-black">8. Contact</h2>
 				<p>
-					We may terminate or suspend your access to our services at any time, without prior notice, for conduct that violates these Terms or is harmful to other users.
+					If you have questions about these Terms, contact
+					<a href="mailto:legal@softodesign.com" class="text-purple-600 hover:text-purple-700 font-medium">legal@softodesign.com</a>.
 				</p>
-			</div>
+			</section>
 		</div>
-
-		<!-- Changes to Terms -->
-		<div class="mb-16">
-			<h2 class="text-2xl font-bold text-black mb-6">Changes to Terms</h2>
-			<div class="space-y-4 text-gray-700 leading-relaxed">
-				<p>
-					We reserve the right to modify these Terms at any time. We will notify users of any material changes by posting the updated Terms on our website.
-				</p>
-			</div>
-		</div>
-
-		<!-- Contact -->
-		<div class="border border-gray-200 p-8 rounded-lg text-center">
-			<h2 class="text-2xl font-bold text-black mb-4">Questions About These Terms?</h2>
-			<p class="text-gray-600 mb-4">
-				If you have any questions about these Terms of Service, please contact us.
-			</p>
-			<a href="mailto:support@softodesign.com" class="text-gray-700 hover:text-gray-900 font-medium underline">
-				support@softodesign.com
-			</a>
-		</div>
-
 	</div>
-</div>
+</section>
+
