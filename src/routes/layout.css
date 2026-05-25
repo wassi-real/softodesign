@@ -24,22 +24,21 @@ body {
 	@apply bg-black text-white;
 }
 
-/* Custom Cursor */
-body {
-	cursor:
-		url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>")
-			16 0,
-		auto; /* Fallback to emoji or simple shape if needed, but let's try a clean shape */
-	cursor:
-		url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.5 3.5L19 12L5.5 20.5V3.5Z" fill="black" stroke="white" stroke-width="2"/></svg>')
-			2 2,
-		auto;
-}
-:global(.dark) body {
-	cursor:
-		url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.5 3.5L19 12L5.5 20.5V3.5Z" fill="white" stroke="black" stroke-width="2"/></svg>')
-			2 2,
-		auto;
+@media (pointer: fine) and (prefers-reduced-motion: no-preference) {
+	body,
+	a,
+	button,
+	summary,
+	[role='button'],
+	.product-card {
+		cursor: none;
+	}
+
+	input,
+	textarea,
+	select {
+		cursor: auto;
+	}
 }
 
 @keyframes grid-move {

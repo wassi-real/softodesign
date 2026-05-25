@@ -25,7 +25,7 @@
 
 					<!-- Tagline -->
 					<p class="text-lg sm:text-xl text-blue-600 dark:text-blue-400 mb-6 font-medium">
-						19 y/o Solopreneur crafting digital dreams from Bangladesh
+						20 y/o Solopreneur crafting digital dreams from Bangladesh
 					</p>
 
 					<!-- About Me -->

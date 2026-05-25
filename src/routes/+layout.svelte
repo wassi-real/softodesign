@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import SiteCursor from '$lib/components/SiteCursor.svelte';
 	import whiteLogo from '$lib/assets/white-logo.png';
 
 	let { children } = $props();
@@ -10,4 +11,5 @@
 	<link rel="apple-touch-icon" href={whiteLogo} />
 </svelte:head>
 
+<SiteCursor />
 {@render children()}
